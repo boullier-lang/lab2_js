@@ -6,7 +6,7 @@ function a_function_idk()
     link_box = document.getElementById("link");
     link_value = link_box.value;
 
-    if(recipe_name.length == 0 && link_value.length==0)
+    if(recipe_name.length == 0 || link_value.length==0)
     {
         return;
     }
